@@ -23,7 +23,7 @@ defmodule LogstashJson.Mixfile do
     [
       {:connection, "~> 1.1.0"},
       {:jason, "~> 1.1"},
-      {:blocking_queue, "~> 1.3", optional: true},
+      {:blocking_queue, "~> 1.3"},
       {:ex_doc, ">= 0.0.0", only: :dev},
       {:credo, ">= 0.0.0", only: :dev}
     ]
