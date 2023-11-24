@@ -23,7 +23,7 @@ defmodule LogstashJson.Mixfile do
     [
       {:connection, "~> 1.1.0"},
       {:jason, "~> 1.1"},
-      {:blocking_queue, "~> 1.4.0"},
+      {:blocking_queue, "~> 1.4", github: "tongacuity/BlockingQueue", branch: "master"},
       {:ex_doc, ">= 0.0.0", only: :dev},
       {:credo, ">= 0.0.0", only: :dev}
     ]
