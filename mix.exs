@@ -16,7 +16,12 @@ defmodule LogstashJson.Mixfile do
   end
 
   def application do
-    [applications: [:logger]]
+    [
+      applications: [:logger],
+      extra_applications: [
+        :connection
+      ]
+    ]
   end
 
   defp deps do
